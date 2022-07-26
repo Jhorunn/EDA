@@ -2,6 +2,7 @@
 {
     public class TwoSumClass
     {
+        // First approach
         public static int[] TwoSumFirst(int[] nums, int target)
         {
             var dictionary = nums
@@ -22,6 +23,7 @@
             return new int[] {};
         }
 
+        // Good One
         public static int[] TwoSumSecond(int[] nums, int target)
         {
             var dictionary = new Dictionary<int, int>();
