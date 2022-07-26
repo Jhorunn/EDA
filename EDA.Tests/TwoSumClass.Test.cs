@@ -1,5 +1,3 @@
-using EDALibrary;
-
 namespace EDA.Tests
 {
     public class TwoSumClass
