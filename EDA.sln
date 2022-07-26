@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDA.Tests", "EDA.Tests\EDA.Tests.csproj", "{B953A959-3726-4D99-8731-9F870AEFA784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDALibrary", "EDALibrary\EDALibrary.csproj", "{BED11E5B-A2C9-4957-AAF1-8E192B7B5B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B953A959-3726-4D99-8731-9F870AEFA784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B953A959-3726-4D99-8731-9F870AEFA784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B953A959-3726-4D99-8731-9F870AEFA784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B953A959-3726-4D99-8731-9F870AEFA784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED11E5B-A2C9-4957-AAF1-8E192B7B5B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED11E5B-A2C9-4957-AAF1-8E192B7B5B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED11E5B-A2C9-4957-AAF1-8E192B7B5B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED11E5B-A2C9-4957-AAF1-8E192B7B5B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {910425E7-BE9C-45DB-9DCC-83436BE0BAD3}
+	EndGlobalSection
+EndGlobal
