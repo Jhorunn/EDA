@@ -11,17 +11,16 @@ namespace EDALibrary
 
         public static int NumEquivDominoPairs(int[][] dominoes)
         {
-            var dict = new Dictionary<string, int>();
+            var dict = new Dictionary<int, int>();
             int result = 0;
-            int a, b;
-            string hash;
+            int a, b, hash;
 
             for (int i = 0; i < dominoes.Length; i++)
             {
                 a = dominoes[i][0];
                 b = dominoes[i][1];
 
-                hash = a <= b ? $"{a}{b}" : $"{b}{a}";
+                hash = a <= b ? (10 * a + b) : (10 * b + a);
 
                 if (dict.ContainsKey(hash))                
                     dict[hash] ++;                
